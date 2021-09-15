@@ -1,0 +1,222 @@
+The target system is: Linux - 1 - arm
+The host system is: Linux - 4.15.0-142-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc 
+Build flags: -Os;-pipe;-march=armv7-a;-mtune=cortex-a7;-fno-caller-saves;-Wa,--noexecstack;-fhonour-copts;-mfloat-abi=soft;-fPIC;-fstack-protector;-D_FORTIFY_SOURCE=2;-Wl,-z,now;-Wl,-z,relro;-fpie;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/3.3.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_383f3/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_383f3.dir/build.make CMakeFiles/cmTC_383f3.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_383f3.dir/testCCompiler.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -o CMakeFiles/cmTC_383f3.dir/testCCompiler.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_383f3
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_383f3.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie   CMakeFiles/cmTC_383f3.dir/testCCompiler.c.o  -o cmTC_383f3 -rdynamic 
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7b2a/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d7b2a.dir/build.make CMakeFiles/cmTC_d7b2a.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -o CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/share/cmake-3.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d7b2a
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7b2a.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie  -v CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o  -o cmTC_d7b2a -rdynamic  
+Reading specs from /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/specs
+Reading specs from /home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs
+COLLECT_GCC=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/gcc-5.2.0/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt GCC 5.2.0 unknown' --prefix=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --with-mpfr=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --with-mpc=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --disable-decimal-float --enable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-headers=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib
+Thread model: posix
+gcc version 5.2.0 (OpenWrt GCC 5.2.0 unknown) 
+COMPILER_PATH=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/
+COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=armv7-a' '-mtune=cortex-a7' '-fno-caller-saves' '-fhonour-copts' '-mfloat-abi=soft' '-fstack-protector' '-D' '_FORTIFY_SOURCE=2' '-fpie' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib' '-specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs' '-z' 'now' '-z' 'relro' '-pie' '-v' '-o' 'cmTC_d7b2a' '-rdynamic' '-mtls-dialect=gnu' '-pie'
+ /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/collect2 -plugin /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/liblto_plugin.so -plugin-opt=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTwvsjH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-arm.so.1 -X -m armelf_linux_eabi -pie -o cmTC_d7b2a -z now -z relro /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/Scrt1.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtbeginS.o -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -L /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -rpath-link /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0 -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro -lcrypt CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtendS.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d7b2a/fast"]
+  ignore line: [make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d7b2a.dir/build.make CMakeFiles/cmTC_d7b2a.dir/build]
+  ignore line: [make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -o CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/share/cmake-3.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d7b2a]
+  ignore line: [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7b2a.dir/link.txt --verbose=1]
+  ignore line: [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie  -v CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o  -o cmTC_d7b2a -rdynamic  ]
+  ignore line: [Reading specs from /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/specs]
+  ignore line: [Reading specs from /home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs]
+  ignore line: [COLLECT_GCC=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/gcc-5.2.0/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt GCC 5.2.0 unknown' --prefix=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --with-mpfr=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --with-mpc=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host --disable-decimal-float --enable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-headers=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (OpenWrt GCC 5.2.0 unknown) ]
+  ignore line: [COMPILER_PATH=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/:/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-pipe' '-march=armv7-a' '-mtune=cortex-a7' '-fno-caller-saves' '-fhonour-copts' '-mfloat-abi=soft' '-fstack-protector' '-D' '_FORTIFY_SOURCE=2' '-fpie' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib' '-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib' '-specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs' '-z' 'now' '-z' 'relro' '-pie' '-v' '-o' 'cmTC_d7b2a' '-rdynamic' '-mtls-dialect=gnu' '-pie']
+  link line: [ /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/collect2 -plugin /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/liblto_plugin.so -plugin-opt=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTwvsjH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-arm.so.1 -X -m armelf_linux_eabi -pie -o cmTC_d7b2a -z now -z relro /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/Scrt1.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtbeginS.o -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -L /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -rpath-link /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0 -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib -z now -z relro -lcrypt CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtendS.o /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/libexec/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTwvsjH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7b2a] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/Scrt1.o] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtbeginS.o] ==> ignore
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib]
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib]
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib]
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib]
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib] ==> ignore
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0]
+    arg [-L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-lcrypt] ==> lib [crypt]
+    arg [CMakeFiles/cmTC_d7b2a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/crtendS.o] ==> ignore
+    arg [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0]
+  collapse library dir [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [crypt;ssp_nonshared;c]
+  implicit dirs: [/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib;/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib;/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib;/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib;/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib/gcc/arm-openwrt-linux-muslgnueabi/5.2.0;/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37aa9/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_37aa9.dir/build.make CMakeFiles/cmTC_37aa9.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37aa9.dir/feature_tests.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -std=c11 -o CMakeFiles/cmTC_37aa9.dir/feature_tests.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/feature_tests.c
+Linking C executable cmTC_37aa9
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37aa9.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie   CMakeFiles/cmTC_37aa9.dir/feature_tests.c.o  -o cmTC_37aa9 -rdynamic 
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2be0a/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2be0a.dir/build.make CMakeFiles/cmTC_2be0a.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2be0a.dir/feature_tests.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -std=c99 -o CMakeFiles/cmTC_2be0a.dir/feature_tests.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2be0a
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be0a.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie   CMakeFiles/cmTC_2be0a.dir/feature_tests.c.o  -o cmTC_2be0a -rdynamic 
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b031/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9b031.dir/build.make CMakeFiles/cmTC_9b031.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b031.dir/feature_tests.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -std=c90 -o CMakeFiles/cmTC_9b031.dir/feature_tests.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9b031
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b031.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie      -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie   CMakeFiles/cmTC_9b031.dir/feature_tests.c.o  -o cmTC_9b031 -rdynamic 
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function getspnam exists passed with the following output:
+Change Dir: /home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a223/fast"
+make[5]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1a223.dir/build.make CMakeFiles/cmTC_1a223.dir/build
+make[6]: Entering directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a223.dir/CheckFunctionExists.c.o
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc   -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie   -DCHECK_FUNCTION_EXISTS=getspnam   -o CMakeFiles/cmTC_1a223.dir/CheckFunctionExists.c.o   -c /home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a223
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a223.dir/link.txt --verbose=1
+/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc  -Os -pipe -march=armv7-a -mtune=cortex-a7 -fno-caller-saves -Wa,--noexecstack -fhonour-copts -mfloat-abi=soft -fPIC -fstack-protector -D_FORTIFY_SOURCE=2 -Wl,-z,now -Wl,-z,relro -fpie   -DCHECK_FUNCTION_EXISTS=getspnam   -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/target-arm_cortex-a7_musl-1.1.16_eabi/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/usr/lib -L/home/webber/SSD/spf11.4-cs-app/qsdk/staging_dir/toolchain-arm_cortex-a7_gcc-5.2.0_musl-1.1.16_eabi/lib -specs=/home/webber/SSD/spf11.4-cs-app/qsdk/include/hardened-ld-pie.specs -znow -zrelro -lcrypt -pie   CMakeFiles/cmTC_1a223.dir/CheckFunctionExists.c.o  -o cmTC_1a223 -rdynamic 
+make[6]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+make[5]: Leaving directory '/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/CMakeTmp'
+
+

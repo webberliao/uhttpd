@@ -1,0 +1,3 @@
+/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/uhttpd_ubus.dir
+/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/uhttpd_lua.dir
+/home/webber/SSD/spf11.4-cs-app/qsdk/build_dir/target-arm_cortex-a7_musl-1.1.16_eabi/uhttpd-2015-11-08/CMakeFiles/uhttpd.dir
