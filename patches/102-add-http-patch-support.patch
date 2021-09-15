@@ -1,0 +1,61 @@
+diff --git a/uhttpd-2015-11-08/client.c b/uhttpd-2015-11-08/client.c
+index 75a0139..990eb54 100644
+--- a/uhttpd-2015-11-08/client.c
++++ b/uhttpd-2015-11-08/client.c
+@@ -41,6 +41,7 @@ const char * const http_methods[] = {
+ 	[UH_HTTP_MSG_HEAD] = "HEAD",
+ 	[UH_HTTP_MSG_OPTIONS] = "OPTIONS",
+ 	[UH_HTTP_MSG_PUT] = "PUT",
++	[UH_HTTP_MSG_PATCH] = "PATCH",
+ 	[UH_HTTP_MSG_DELETE] = "DELETE",
+ };
+ 
+diff --git a/uhttpd-2015-11-08/file.c b/uhttpd-2015-11-08/file.c
+index 12aa130..e6cc524 100644
+--- a/uhttpd-2015-11-08/file.c
++++ b/uhttpd-2015-11-08/file.c
+@@ -352,6 +352,11 @@ static void uh_file_response_304(struct client *cl, struct stat *s)
+ 	return uh_file_response_ok_hdrs(cl, s);
+ }
+ 
++static void uh_file_response_405(struct client *cl)
++{
++	uh_http_header(cl, 405, "Method Not Allowed");
++}
++
+ static void uh_file_response_412(struct client *cl)
+ {
+ 	uh_http_header(cl, 412, "Precondition Failed");
+@@ -609,6 +614,20 @@ static void uh_file_request(struct client *cl, const char *url,
+ 	struct http_request *req = &cl->request;
+ 	char *error_handler;
+ 
++	switch (cl->request.method) {
++		case UH_HTTP_MSG_GET:
++		case UH_HTTP_MSG_POST:
++		case UH_HTTP_MSG_HEAD:
++		case UH_HTTP_MSG_OPTIONS:
++			break;
++		default:
++			uh_file_response_405(cl);
++			ustream_printf(cl->us, "\r\n");
++			uh_request_done(cl);
++			return;
++	}
++
++
+ 	if (!(pi->stat.st_mode & S_IROTH))
+ 		goto error;
+ 
+diff --git a/uhttpd-2015-11-08/uhttpd.h b/uhttpd-2015-11-08/uhttpd.h
+index eb1e4f4..5be6246 100644
+--- a/uhttpd-2015-11-08/uhttpd.h
++++ b/uhttpd-2015-11-08/uhttpd.h
+@@ -93,6 +93,7 @@ enum http_method {
+ 	UH_HTTP_MSG_HEAD,
+ 	UH_HTTP_MSG_OPTIONS,
+ 	UH_HTTP_MSG_PUT,
++	UH_HTTP_MSG_PATCH,
+ 	UH_HTTP_MSG_DELETE,
+ };
+ 
